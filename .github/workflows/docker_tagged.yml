@@ -1,5 +1,9 @@
 name: docker tagged
 
+permissions:
+  contents: read
+  package: write
+
 on:
   push:
     tags:
