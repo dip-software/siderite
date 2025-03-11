@@ -4,7 +4,7 @@ go 1.24
 
 require (
 	github.com/dip-software/go-dip-api v0.91.0
-	github.com/fatih/color v1.17.0
+	github.com/fatih/color v1.18.0
 	github.com/go-resty/resty/v2 v2.11.0
 	github.com/google/uuid v1.6.0
 	github.com/influxdata/go-syslog/v2 v2.0.1
