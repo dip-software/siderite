@@ -4,9 +4,9 @@ siderite is a companion tool to the iron CLI to make the interaction with the Ir
 ## Disclaimer
 
 > [!Important]
-> This repository is managed as Philips Inner-source / Open-source.
-> This repository is NOT endorsed or supported by HSSA&P or I&S Cloud Operations. 
-> You are expected to self-support or raise tickets on the Github project and NOT raise tickets in HSP ServiceNow. 
+> This repository is managed as community Open-source.
+> This repository is NOT endorsed or supported by any corporate entity. 
+> You are expected to self-support or raise tickets on the Github project and NOT raise tickets in SNOW. 
 
 # requirements
 * IronCLI - https://dev.iron.io/worker/reference/cli/
@@ -14,7 +14,7 @@ siderite is a companion tool to the iron CLI to make the interaction with the Ir
 * Access to Cloud foundyr
 
 # install siderite binary
-Ensure you have [Go 1.21 or newer](https://golang.org/dl/) installed, then:
+Ensure you have [Go 1.24 or newer](https://golang.org/dl/) installed, then:
 
 ```shell
 $ go install github.com/dip-software/siderite@latest
