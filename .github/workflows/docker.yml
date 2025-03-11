@@ -14,7 +14,7 @@ jobs:
       - name: Calculate Docker image tags
         id: tags
         env:
-          DOCKER_IMAGES: "ghcr.io/philips-labs/siderite"
+          DOCKER_IMAGES: "ghcr.io/dip-software/siderite"
         run: |
           case $GITHUB_REF in
             refs/tags/*)  VERSION=${GITHUB_REF#refs/tags/};;

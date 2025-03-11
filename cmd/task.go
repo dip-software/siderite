@@ -6,9 +6,9 @@ import (
 	"os/exec"
 	"time"
 
+	"github.com/dip-software/siderite/logger"
+	"github.com/dip-software/siderite/models"
 	"github.com/iron-io/iron_go3/worker"
-	"github.com/philips-labs/siderite/logger"
-	"github.com/philips-labs/siderite/models"
 	"github.com/spf13/cobra"
 )
 

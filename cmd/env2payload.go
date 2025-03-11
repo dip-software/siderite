@@ -10,7 +10,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/philips-labs/siderite/models"
+	"github.com/dip-software/siderite/models"
 	"github.com/spf13/cobra"
 )
 

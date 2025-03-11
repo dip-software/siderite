@@ -22,7 +22,7 @@ THE SOFTWARE.
 package main
 
 import (
-	"github.com/philips-labs/siderite/cmd"
+	"github.com/dip-software/siderite/cmd"
 )
 
 func main() {

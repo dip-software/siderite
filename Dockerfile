@@ -11,10 +11,10 @@ RUN go mod download
 
 # Build
 COPY . .
-RUN GIT_COMMIT=$GIT_COMMIT go build -ldflags "-X github.com/philips-labs/siderite/cmd.GitCommit=${GIT_COMMIT}"
+RUN GIT_COMMIT=$GIT_COMMIT go build -ldflags "-X github.com/dip-software/siderite/cmd.GitCommit=${GIT_COMMIT}"
 
 FROM alpine:latest
-LABEL maintainer="andy.lo-a-foe@philips.com"
+LABEL maintainer="andy.loafoe@gmail.com"
 WORKDIR /app
 COPY --from=builder /siderite/siderite /app
 ENTRYPOINT ["/app/siderite","runner"]

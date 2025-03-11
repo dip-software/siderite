@@ -17,7 +17,7 @@ siderite is a companion tool to the iron CLI to make the interaction with the Ir
 Ensure you have [Go 1.21 or newer](https://golang.org/dl/) installed, then:
 
 ```shell
-$ go install github.com/philips-labs/siderite@latest
+$ go install github.com/dip-software/siderite@latest
 ```
 
 # configuration
@@ -173,7 +173,7 @@ cat payload.json |siderite encrypt > payload.enc
 
 :triangular_flag_on_post: Below is an example only. Do not use Java8, it is obsolete! 
 
-> [Dockerfile](https://github.com/philips-labs/siderite-java8)
+> [Dockerfile](https://github.com/dip-software/siderite-java8)
 
 ```Dockerfile
 FROM loafoe/siderite-java8:v0.11.0

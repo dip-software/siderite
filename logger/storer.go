@@ -10,9 +10,9 @@ import (
 	"strings"
 	"time"
 
+	"github.com/dip-software/go-dip-api/logging"
+	"github.com/dip-software/siderite/models"
 	"github.com/google/uuid"
-	"github.com/philips-labs/siderite/models"
-	"github.com/philips-software/go-hsdp-api/logging"
 )
 
 var (

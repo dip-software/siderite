@@ -5,8 +5,8 @@ import (
 	"io/ioutil"
 	"os"
 
-	config "github.com/philips-labs/siderite/iron"
-	"github.com/philips-software/go-hsdp-api/iron"
+	"github.com/dip-software/go-dip-api/iron"
+	config "github.com/dip-software/siderite/iron"
 
 	"github.com/spf13/cobra"
 )
@@ -82,6 +82,6 @@ func encrypt(cmd *cobra.Command, _ []string) error {
 		fmt.Println(err)
 		return err
 	}
-	_, _ = fmt.Fprintf(os.Stdout, ciphertext+"\n")
+	_, _ = fmt.Fprintf(os.Stdout, "%s\n", ciphertext)
 	return nil
 }

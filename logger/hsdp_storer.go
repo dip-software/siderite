@@ -3,8 +3,8 @@ package logger
 import (
 	"os"
 
-	"github.com/philips-software/go-hsdp-api/iam"
-	"github.com/philips-software/go-hsdp-api/logging"
+	"github.com/dip-software/go-dip-api/iam"
+	"github.com/dip-software/go-dip-api/logging"
 )
 
 const (

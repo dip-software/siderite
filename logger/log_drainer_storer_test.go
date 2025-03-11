@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/dip-software/go-dip-api/logging"
+	"github.com/dip-software/siderite/logger"
 	"github.com/influxdata/go-syslog/v2/rfc5424"
-	"github.com/philips-labs/siderite/logger"
-	"github.com/philips-software/go-hsdp-api/logging"
 	"github.com/stretchr/testify/assert"
 )
 

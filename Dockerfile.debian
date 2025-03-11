@@ -10,7 +10,7 @@ RUN go mod download
 
 # Build
 COPY . .
-RUN GIT_COMMIT=$GIT_COMMIT go build -ldflags "-X github.com/philips-labs/siderite/cmd.GitCommit=${GIT_COMMIT}"
+RUN GIT_COMMIT=$GIT_COMMIT go build -ldflags "-X github.com/dip-software/siderite/cmd.GitCommit=${GIT_COMMIT}"
 
 FROM golang:1.21.6-bullseye
 WORKDIR /app

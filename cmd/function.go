@@ -13,12 +13,12 @@ import (
 	"syscall"
 	"time"
 
+	"github.com/dip-software/siderite/logger"
+	"github.com/dip-software/siderite/models"
 	"github.com/go-resty/resty/v2"
 	"github.com/iron-io/iron_go3/worker"
 	chclient "github.com/jpillora/chisel/client"
 	"github.com/jpillora/chisel/share/cos"
-	"github.com/philips-labs/siderite/logger"
-	"github.com/philips-labs/siderite/models"
 	"github.com/spf13/cobra"
 )
 
