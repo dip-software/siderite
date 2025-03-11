@@ -2,7 +2,7 @@ name: docker tagged
 
 permissions:
   contents: read
-  package: write
+  packages: write
 
 on:
   push:
